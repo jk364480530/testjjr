@@ -1,0 +1,6 @@
+.top-ad{ height:80px; width:100%; background:url(http://js.wotucdn.com/2016/active/images/top-ad.jpg) no-repeat center;}
+.top-ad a{ display:block;  height:80px; width:100%;}
+.top-ad .w1200{ width:1200px !important; position:relative; background:url(http://js.wotucdn.com/2016/active/images/top-ad-middle.png ) no-repeat center center; height:80px;}
+.top-ad .close-icon{ display:inline-block; width:20px; height:20px; background:url(http://js.wotucdn.com/2016/active/images/close-icon.png); position:absolute; top:10px; right:10px; cursor: pointer; }
+.active-gif{ width:62px;  height:145px; background:url(http://js.wotucdn.com/2016/active/images/active-gif.gif); position:absolute;top:-153px;right:4px; }
+.active-gif a{ display:block;width:62px;  height:145px;}

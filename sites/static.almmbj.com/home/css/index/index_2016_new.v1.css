@@ -1,0 +1,121 @@
+.content{width: 100%;height: auto;overflow: hidden;background: #f1f2f3; padding-top:28px;}
+
+/* banner*/
+.banner{width: 100%;height: 400px;}
+.banner h1{text-align: center;font-size: 36px;font-weight: bold;margin: 0 auto; color: #fff; padding:64px 0 10px 0; letter-spacing: 4px; }
+.banner p{text-align: center;font-size: 18px; color: #fff;}
+
+.header-con{height:30px;background-color:#f1f1f1;}
+.header-con p{color:#898989;font-size:12px;height:30px;line-height:30px;}
+.header-con .user-infor-top{color:#828282;font-size:12px;height:30px;line-height:30px;}
+.header-con .user-infor-top a{padding:0 22px;}
+.header-con .user-infor-top .color-y{color:#ff7c35}
+.header-con .user-infor-top i{display:inline-block;color:#c1c1c1;font-style:normal}
+.header-con .user-infor-top .color-red{color:#ff6633;padding-left:5px;}
+.header-con .user-infor-top .padding-none{padding-right:0;}
+/*** ¾«Ñ¡×¨ÌâÍÆ¼ö ***/
+.recmd-list{ width: 1152px; overflow: hidden; padding:0 24px; background: #fff; margin-bottom: 20px; }
+.recmd-box{width: 1190px;}
+.recmd-box .list{width: 272px;height: 182px;position:relative;margin:0 22px 34px 0;transition:all .2s; overflow: hidden;}
+.recmd-box .list img{width: 100%;height: 100%; display: block;}
+.recmd-box .list .list-bg{width: 100%;height:100%;position: absolute;top: 0;left: 0;background: rgba(0,0,0,.5);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);z-index: 11;text-align: center;overflow: hidden;top: 138px;transition:all .3s;}
+.recmd-box .list:hover .list-bg{top: 0}
+.recmd-box .list .list-bg a{width: 100%;height: 100%;display: block;color: #fff;}
+.recmd-box .list .look-but{width: 92px;height: 30px;line-height: 28px;display: block;color:#fff;font-size: 14px;background:#00b369;border-radius: 2px;text-align: center;margin:14px auto 0;text-indent: 5px; font-style: normal; }
+.recmd-box .list .list-bg .list-name{display: block;padding-top: 15px;text-align: center;font-size: 16px;transition:all .3s;}
+.recmd-box .list:hover .list-bg .list-name{padding-top: 60px;}
+.recmd-box .list .look-but:hover{ background: #00a460; }
+
+
+/**** Õ¹Ê¾ÁÐ±í ***/
+.show-list{width: 1126px;padding: 0 34px 0 40px;background: #fff;margin-bottom: 34px; overflow: hidden; }
+.show-list .show-box{width: 1180px;}
+.show-list .show-box .list{width: 260px;height: 350px;margin:0 28px 28px 0; position: relative; overflow: hidden; transition:all .2s; -webkit-transiton:all .2s; }
+.show-list .show-box .list:hover{opacity: .9;}
+
+.show-list .show-box .list .list-name:hover {color: #00b369;}
+.show-list .show-box .list .list-img{width: 100%;height: 300px;display: block;}
+.show-list .show-box .list .list-name{height: 52px;line-height: 52px;display: block;text-align: left; padding-left:12px; font-size: 14px;color: #606060;}
+.show-list  .list-but { position: absolute; top:-50px; left:0px; width: 248px; padding: 0 6px; }
+.show-list  .list-but .collect, .show-list  .list-but .cancle{ width: 91px; height: 43px; line-height: 41px; text-align: center; border:1px solid #e5e5e5; background: #f4f4f4; display: inline-block; font-size: 16px; color: #505050; cursor: pointer; }
+.show-list  .list-but .collect:hover, .show-list  .list-but .cancle:hover{ background: #f9f9f9; }
+.show-list  .list-but .download{ width: 129px; height: 43px; line-height: 41px; text-align: center;  border:1px solid #00a15e;background: #00b369; font-size: 16px; color: #fff; display: inline-block; }
+.show-list  .list-but .download:hover{ background: #1abb78; }
+
+/*** ¹«¹²ÁÐ±í±êÌâ ****/
+.public-title{height: 86px;line-height: 86px;}
+.public-title span{ height: 84px; line-height: 84px; font-size: 20px;color: #000;margin-right: 18px; display:inline-block; }
+.public-title .more{color: #606060;}
+.public-title .more:hover{color: #00b369;}
+.public-title em{ font-style: normal; }
+.public-title i{ margin-right: 20px; vertical-align: -5px; margin-top: 30px; background: url(//js.wotucdn.com/2015/image/index_2016/new-index-icon.png) no-repeat -33px -196px;width: 28px;height: 23px;display: inline-block; overflow: hidden; }
+.public-title .tb14{ background-position:-33px -225px; }
+.public-title .tb15{ background-position:-33px -261px; }
+.public-title .tb16{ background-position:-33px -301px; }
+.public-title .tb17{ background-position:-33px -337px; }
+.public-title .tb18{ background-position:-103px 1px; }
+
+/**** ·ÖÀàÁÐ±í ***/
+.classify { margin: 20px 0; width: 1209px; }
+.classify .classify-list{ width: 192px; height: 106px; display: inline-block; margin-right: 9px; background: #fff; color: #00b369; font-size: 18px; text-align: center;  }
+.classify .classify-list i{background: url(//js.wotucdn.com/2015/image/index_2016/new-index-icon.png) no-repeat -36px 0 ; width: 22px; height: 19px; display: block; margin: 30px auto 16px; overflow: hidden; }
+.classify .classify-list:hover{ background: #33ae6e; color: #fff; }
+.classify .classify-list:hover i{ background-position: -71px 0; }
+.classify .advert i{ background-position: -36px -24px; }
+.classify .advert:hover i{ background-position: -72px -24px;  }
+.classify .PPT i{ background-position: -36px -57px; width: 25px; height: 24px; }
+.classify .PPT:hover i{ background-position: -72px -57px;}
+.classify .taobao i{ background-position: -36px -90px; width: 28px; height: 21px; }
+.classify .taobao:hover i{background-position: -72px -90px;   }
+.classify .video i{ background-position: -36px -122px;  }
+.classify .video:hover i{  background-position: -71px -122px;  }
+.classify .more i{ background-position: -36px -152px; width: 20px; height:20px; }
+.classify .more:hover i{ background-position: -71px -152px;  }
+
+
+/*** ÌáÊ¾ ***/
+.tip{height: 50px;line-height: 50px;background: #fff;}
+.tip .tip-count{float: left;margin-left: 38px;}
+.tip .tip-count p{display: inline-block; margin-right: 28px;}
+.tip .tip-count p i{color: #ff7200; font-style: normal; }
+.tip .tip-prompt dl dt{background: url(//js.wotucdn.com/2015/image/index_2016/new-index-icon.png) no-repeat 0 -70px ; width: 24px; height: 24px; display: inline-block; margin-right: 12px; margin-top: 14px; }
+.tip .tip-prompt dl dd{ color: #7f7f7f; }
+.tip .tip-prompt dl{ margin-left: 40px; }
+.tip .tip-prompt .dl-2 dt{ background-position: 0px -104px; }
+.tip .tip-prompt .dl-3 dt{ background-position: 0px -132px; }
+.tip .tip-prompt .dl-4 dt{ background-position: 0px -162px; }
+
+
+.best-user{  background: #fff; margin-bottom: 34px; }
+.find-pic{ margin-top:32px; }
+.find-pic .find-pic-but{ width: 100px; height: 32px; line-height: 30px; text-indent: 6px; display:block; text-align: center; color: #fff; background: #00b369; border-radius: 2px; }
+.find-pic .find-pic-but:hover{ background: #00a460; color:#fff; }
+
+
+/****banner***/
+.slideTxtBox{position:relative;width:100%;height: 100%;left: 0;margin: 0 auto;}
+.slideTxtBox .hd ul li{float:left;width: 20px;height: 20px;margin:0 2.5px;cursor: pointer;line-height: 20px;
+    text-align: center; background-color:#000; opacity:0.7; border-radius:20px; color:#fff}
+.slideTxtBox .hd ul li:hover, .slideTxtBox .hd ul li.on{ background-color:#00b369; opacity:1}
+.slideTxtBox .bd{width: 100%;}
+.slideTxtBox .arrow{top:0;left:0;z-index: 10;width: 100%;filter:alpha(opacity=0);opacity: 0;transition: opacity .3s linear 0s;position: relative;zoom: 1;width: 1030px;margin-left:170px;}
+.slideTxtBox .arrow .next, .slideTxtBox .arrow .prev{position:absolute;top:166px;width: 43px;height: 68px;display: inline-block;background-image:url(//js.wotucdn.com/2015/image/index_2016/new-index-icon.png);}
+.slideTxtBox .arrow .prev{left:10px;background-position: -93px -421px;}
+.slideTxtBox .arrow .prev:hover{background-position: -3px -421px;}
+.slideTxtBox .arrow .next{right:0px;background-position: -138px -421px;}
+.slideTxtBox .arrow .next:hover{background-position: -48px -421px;}
+.banner:hover .slideTxtBox .arrow{filter:alpha(opacity=100);opacity: 100;}
+.slideTxtBox  .bd a{ display:block; height:400px; white-space:100%; overflow:hidden}
+.img_pagebox {position: absolute;left: 0;bottom: 22px;/*width:150px;margin-left:15px;*/left: 50%;}
+.pageBox {vertical-align: middle;text-align: center;}
+.control {position: absolute;width: 100%; top:34px;}
+.control a {position: absolute;top: 0;margin: -34px 0 0;width: 34px;height: 68px;_background-color: #aaa;}
+/**/
+/* -------- friendlink -- */
+.none {display: none;}
+.friend-link {margin-top: 10px;box-shadow: 0 0 3px rgba(0, 0, 0, .1);background: #fff;padding: 52px 24px 28px; margin-bottom: 20px;  }
+.linkBox-nav {height: 56px;line-height: 20px;}
+.linkBox-nav span {font-size: 18px;padding: 0 40px 0 1px;color: #aaa;cursor: pointer;  }
+.linkBox-nav span:hover, .linkBox-nav .current-link-li {color: #00B369;  }
+#linkBoxContent a, #linkBoxContent span {color: #aaa;line-height: 28px;display: inline;float: left;margin-right: 18px;white-space: nowrap;  }
+#linkBoxContent a:hover {color: #090}

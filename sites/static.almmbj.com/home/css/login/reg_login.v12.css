@@ -1,0 +1,135 @@
+/* ¹«ÓÃÑùÊ½ */
+.box{width: 100%; height: auto;}
+.box-1000{width: 1000px; margin: 0 auto;}
+.box-860{width: 860px; margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.mt18{margin-top: 18px;}
+.br3{-moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius:3px;}
+.hoverunderline{text-decoration:underline;}
+.color_green{color:#00B96C;}
+.clear{clear:both;}
+.f14{font-size:14px;}
+
+/* Í·²¿ÑùÊ½ */
+.header{width: 100%; height: 85px; background: #FFF; border-bottom: solid 2px #00a761;}
+.header-logo{}
+.header-logo a,.header-user a{height: 84px; line-height: 84px;}
+.header-logo a{display: block; text-indent: -999px; width: 165px; background: url("//js.wotucdn.com/images/user/login.jpg") no-repeat;}
+.header-user{font-size: 14px; color: #000; height: 84px; line-height: 84px;}
+.header-user a{display: inline-block; color: #2fad51; margin-left: 15px;}
+.header-reg{float:right;font-size:16px;margin: 33px 115px 0 0;}
+.header-reg a{color:#090;}
+.header-reg a:hover{text-decoration:underline;}
+
+
+/* ÄÚÈÝÑùÊ½ */
+.main{width: 100%; height: 560px; background: url("//js.wotucdn.com/images/user/bg.jpg") repeat-x;}
+.regBox{width: 700px; margin: 0 auto;}
+.main-text,.main-text-login{text-align: center; height: 100px; line-height: 100px; color: #000; font-size: 18px;}
+.main-text-login{height: 80px; line-height: 80px;}
+.main-text-bottom{height: 70px; line-height: 70px; text-align: center; color: #000; font-size: 14px; margin-top: 40px;}
+.ooopic_siteReg{color: #2fad51; cursor: pointer;}
+.main-qq,.main-login,.main-weixin,.main-qiye{width: 175px; height: 175px; background: url("//js.wotucdn.com/images/user/tubiao.vx.png"); display: inline;}
+.main-qq{background-position: -42px -41px;}
+.main-weixin{background-position: -242px -41px; margin:0 87px;}
+.main-qiye{background-position: -446px -41px;}
+.main-spanBox{
+    width: 175px; 
+    height: 175px; 
+    display: block; 
+    cursor: pointer;
+    -moz-border-radius: 50%;      /* Gecko browsers */
+    -webkit-border-radius: 50%;   /* Webkit browsers */
+    border-radius:50%;            /* W3C syntax */
+    position: relative;
+}
+.main-title{position: absolute;text-align: center;display: block;width: 175px;font-size: 18px;color:#757575;left: 0;bottom:-66px;font-weight:bold;}
+.main-title .icon-new{background: #009944; color: #fff; font-size: 12px; width: 20px; height: 20px; line-height: 20px; margin-left: 5px; vertical-align: bottom; display: inline-block; text-align: center;}
+.main .p-ml220{margin-left:220px;}
+.qita-login-line{border:none; border-top:#7c7d78 1px solid; height: 15px;}
+.qita-login-line legend{width:180px; text-align:center; margin-left: 260px; color: #5f5f5f}
+
+
+.qita-login{width: 100%; height: 50px; line-height: 50px; text-align: center;}
+.qita-login .sina,.qita-login .ooopic{height: 28px; line-height: 28px; display: inline-block; width: auto; position: relative; text-indent: 43px;}
+.qita-login .sina{margin-right: 35px;}
+.qita-login .sina i,.qita-login .ooopic i{background: url("//js.wotucdn.com/images/user/tubiao.vx.png"); height: 28px; width: 28px; display: inline-block; position: absolute; left: 0; top: 0;}
+.qita-login .ooopicpre{display:none;}
+.qita-login .sina i{background-position: -82px -244px;}
+.qita-login .ooopic i{background-position: -144px -244px;}
+.qita-login .ooopicqy i{background-position: -207px -244px;}
+
+
+.regBox-on{width: 380px; padding-top: 100px; float: left;}
+.regBox-on .main-text,.regBox-on .main-text-login{display: none;}
+.regBox-on .main-qiye{display: none;}
+.regBox-on .main-weixin{margin: 0; margin-left: 30px;}
+.regBox-on .main-text-bottom{display: none;}
+.regBox-on .qita-login-line{margin-top: 70px;}
+.regBox-on .qita-login{height: 30px; line-height: 30px;}
+.regBox-on .qita-login-line legend{margin-left: 100px;}
+
+
+
+.login-box{position:relative;width:340px;height:auto;margin-top:70px;}
+.login-wrap{width: 340px; position: relative; margin-bottom: 8px;}
+.login-wrap.error{width:338px;display:none;background:#fffae1;border: 1px solid #dcdcdc;padding:11px 0 15px 0;text-align:center;}
+.login-wrap.error i{background:url(//js.wotucdn.com/images/user/login-ico.v1.1.png) no-repeat -234px -114px;width:19px;height:19px;display:inline-block;margin:0 15px 0 0;position:relative;top:4px;}
+.login-wrap.error i.moretext{top:-1px;}
+.login-wrap.error span.moretext{width: 220px;position:relative;display:inline-block;font-size:12px;text-align:left;}
+.login-label{position: absolute; top: 18px; left: 15px; font-size: 14px; color: #8d8d8d;}
+.login-input, .login-btn, .login-loading{
+    height: 48px; 
+    line-height: 48px; 
+    font-size: 15px; 
+    padding: 0; 
+    margin: 0; 
+    border: 0; 
+    left: 0;
+    font-family:"Î¢ÈíÑÅºÚ", "Microsoft YaHei", "ËÎÌå";
+}
+.login-input{color: #8d8d8d; padding-left: 15px; border: 1px #ccc solid; width: 323px;}
+.login-btn{background: #00b86a; text-align: center; color: #FFF; width: 340px; cursor: pointer; position: relative; font-size: 16px;}
+.login-btn-hover{background: #009858;}
+.login-loading{background: #009858; text-align: center; color: #FFF; width: 340px; position: absolute; top: 0; left: 0; z-index: 10; display: none;}
+.login-tips{color: #eb0222; font-size: 12px; height: 22px; line-height: 22px; text-align: right; display: none;}
+.qiyeTitle{font-size: 14px; color: #000;}
+
+
+/* -------- add 2015-8-27 -- */
+a{transition:all .2s;}
+body{ background: #fff}
+.regBox{width:670px;}
+.main-qq{margin-top:120px;}
+.regBox-on{padding:0;float: none}
+.main-qq,.main-login, .main-weixin, .main-qiye{ transition:all .2s; background: url(//js.wotucdn.com/images/user/login-ico.v1.1.png) no-repeat -16px -29px;}
+.main-qq:hover,.main-login:hover, .main-weixin:hover, .main-qiye:hover{ opacity: .9}
+.main-login{background-position:-500px -33px}
+.go-reg{font-size:14px;text-align:right;margin:3px 0 25px 0;}
+.go-reg a{color:#090;}
+.go-reg a:hover{ opacity: .9}
+.login-btn{ background: #090;transition:all .2s;}
+.login-btn:hover{ opacity: .9}
+.color_green{color:#009900;}
+.qita-login-line{margin-top:0;border-top:1px #dcded8 solid;}
+.qita-login-line legend{ font-size: 14px; color:#999;}
+.qita-login .wx{height: 32px; line-height: 32px; display: inline-block; width: auto; position: relative; text-indent: 43px;}
+#user-reg-mainBox .qita-login a{margin:0 50px; }
+#user-reg-mainBox .qita-login a i{ background: url(//js.wotucdn.com/images/user/login-ico.v1.1.png) no-repeat;width:32px;height:32px; display: inline-block; position: absolute;left:0;top:0;}
+#user-reg-mainBox .qita-login a:hover i{ opacity: .9}
+#user-reg-mainBox .qita-login .wx i{ background-position:-221px -160px }
+#user-reg-mainBox .qita-login .sina i{ background-position:-294px -160px }
+#user-reg-mainBox .qita-login .ooopic i{ background-position:-437px -160px }
+#user-reg-mainBox .qita-login .ooopicqy i{ background-position:-367px -160px }
+.qita-login-line legend{margin-left:355px;}
+.qita-login{height:32px; line-height: 32px;padding-top:9px;}
+.qita-login .sina, .qita-login .ooopic{height:32px; line-height: 32px;}
+
+.login-box{margin-top:37px;}
+.login-tips{ visibility: hidden; display: block;}
+.fieldset{height:20px; overflow: hidden;padding:50px 0 15px 0;}
+span.regM{position:absolute;font-size:14px;}
+span.regname{top:68px;left:-85px;}
+span.regpass{top:126px;left:-71px;}
+span.regrepass{top:184px;left:-71px;}

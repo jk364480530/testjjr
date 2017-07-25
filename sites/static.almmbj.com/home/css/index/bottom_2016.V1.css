@@ -1,0 +1,50 @@
+/*bottom*/
+
+#footer{min-width:1200px;height:275px;background:#fff;margin-top:17px;overflow:hidden;}
+#footer .foot{ width:1200px;margin:0 auto;}
+.foot .fsafe{ width:181px;height:140px;background:url(//js.wotucdn.com/2015/image/index/topandfooter2015.v2.png) no-repeat 0 -140px;margin-top:75px;}
+.foot .wtnum{ width:480px;padding:65px 0 0 40px;}
+.foot .wtnum h2{ font-size:30px;font-weight:normal;line-height:30px;height:44px;}
+.foot .wtnum p{ font-size:16px;line-height:28px;letter-spacing:1px;}
+.foot .wtnum p span{color:#ff7200;}
+.foot .wtnum .qqtalk{width:112px;height:36px;background:url(//js.wotucdn.com/2015/image/index/topandfooter2015.v2.png) no-repeat -42px 0;display:inline-block;margin:0 23px 0 5px;margin-top:15px;vertical-align:-6px;}
+.foot dl{margin-top:64px;padding-left:57px;}
+.foot dl dt{ font-size:18px;padding-bottom:25px;line-height:18px;}
+.foot .customer-guide{ width:228px;border-left:1px #aaaaaa solid;border-right:1px #aaaaaa solid;}
+.foot .customer-guide dd{ width:110px;float:left;line-height:28px;}
+.foot .safe dd{ width:142px;height:47px;margin-bottom:10px;}
+.foot .safe .aqlm{ background:url(//js.wotucdn.com/2015/image/index/topandfooter2015.v2.png) no-repeat -42px -40px;}
+.foot .safe .sjs{ background:url(//js.wotucdn.com/2015/image/index/topandfooter2015.v2.png) no-repeat -42px -89px;}
+#copyright{height:82px;background:#565656;min-width:1200px;}
+#copyright .pz p{ float:left;display:inline;font-family:"ËÎÌå";font-size:16px;color:#aaaaaa;height:82px;line-height:82px;padding-right:54px;}
+#copyright .pz p i{ float:left;display:inline;width:26px;height:34px;margin:25px 18px 0 0;background:url(//js.wotucdn.com/2015/image/index/topandfooter2015.v2.png) no-repeat;}
+#copyright .pz p .zb{ background-position:-158px 0}
+#copyright .pz p .bz{ background-position:-189px 0}
+#copyright .pz p .tx{ background-position:-219px 0}
+#copyright .copy{color:#a9a9a9;line-height:24px;font-family:"ËÎÌå";padding-top:16px;}
+#copyright .m{ width:1200px;margin:0 auto}
+
+/*²à±ßÀ¸*/
+.sidebar.top-height{ top:46%; }
+.sidebar{ width: 66px;height:302px;position: fixed;right: 20px;top:67.8%;margin-top:-151px;right: 0px;
+    right: 1px; z-index: 99;  _margin-top:200px;  box-shadow: 0 1px 8px rgba(0,0,0,.1); transition:all .2s;  _position: absolute;  _top: expression(eval(document.documentElement.scrollTop));}
+.sidebar .sidem{ width: 62px;height: 81px; }
+.sidebar .sidem a{ display: block;width: 62px;height: 82px; background: url(//js.wotucdn.com/2015/image/index_2016/position-right.png) no-repeat; }
+.sidebar .qq a{ background-position: 0 0 }
+.sidebar .qq { height:82px; position: relative; }
+.sidebar .qq a:hover{ background-position: -67px 0}
+.sidebar .wx{position: relative;}
+.sidebar .wx span{position: absolute; width: 143px;height: 143px;left: -146px;top: 0;display: none;background: url(//js.wotucdn.com/2015/image/index_2016/position-right.png) no-repeat -134px 0; padding-left: 10px; }
+.sidebar .wx:hover span{ display: block; }
+.sidebar .wx a{ background-position:  0 -83px}
+.sidebar .wx:hover a{background-position:  -67px -83px;  }
+.sidebar .wx a:hover{ background-position:  -67px -83px;}
+.sidebar .fk a{ background-position:  0 -165px}
+.sidebar .fk a:hover{ background-position:  -67px -165px}
+.sidebar .goto-back{ width: 66px;height: 58px; }
+.sidebar .goto-back a{ display: block;width: 62px;height: 58px;  background: url(//js.wotucdn.com/2015/image/index_2016/position-right.png) no-repeat 0 -247px;}
+.sidebar .goto-back a:hover{ background-position:  -67px -247px}
+
+.qqTip{position: absolute;z-index:100; top:0px;right:63px;background:#fff; padding:10px 15px; width:124px;font-size:12px;display: none;}
+.qqTip p{line-height: 20px;}
+.sidebar .qq:hover .qqTip{ display: block;}
